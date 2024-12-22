@@ -15,7 +15,7 @@ public class ClientService {
 
     public ClientDTO findById(Long id) {
         Client client = repository.findById(id).get();
-        ClientDTO dto = new ClientDTO(client)
+        ClientDTO dto = new ClientDTO(client);
         return dto;
     }
 
