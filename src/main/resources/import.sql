@@ -1,0 +1,32 @@
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Harry Potter', '000.000.000-00', 7500.00, '1980-07-31', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Hermione Granger', '111.111.111-11', 8500.00, '1979-09-19', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ron Weasley', '222.222.222-22', 6000.00, '1980-03-01', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ginny Weasley', '333.333.333-33', 7000.00, '1981-08-11', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Draco Malfoy', '444.444.444-44', 9000.00, '1980-06-05', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Luna Lovegood', '555.555.555-55', 6500.00, '1981-02-13', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Neville Longbottom', '666.666.666-66', 6200.00, '1980-07-30', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Albus Dumbledore', '777.777.777-77', 12000.00, '1881-07-10', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Severus Snape', '888.888.888-88', 9500.00, '1960-01-09', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Rubeus Hagrid', '999.999.999-99', 5000.00, '1928-12-06', 0);
+
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Tony Soprano', '222.333.444-55', 15000.00, '1959-08-22', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Carmela Soprano', '333.444.555-66', 12000.00, '1960-11-18', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Christopher Moltisanti', '444.555.666-77', 8000.00, '1969-07-20', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Paulie Gualtieri', '555.666.777-88', 7500.00, '1944-04-12', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Silvio Dante', '666.777.888-99', 10000.00, '1957-11-21', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Meadow Soprano', '777.888.999-00', 5000.00, '1982-09-09', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('AJ Soprano', '888.999.000-11', 3000.00, '1986-07-15', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Janice Soprano', '999.000.111-22', 4500.00, '1957-12-17', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Junior Soprano', '111.222.333-44', 7000.00, '1922-06-01', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Dr. Jennifer Melfi', '222.333.444-55', 11000.00, '1954-04-22', 0);
+
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Moisés', '123.456.789-00', 0.00, '1391-03-01', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Davi', '234.567.890-11', 0.00, '1040-11-10', 8);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Salomão', '345.678.901-22', 0.00, '990-10-14', 1000);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Maria', '456.789.012-33', 0.00, '20-09-08', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('José', '567.890.123-44', 0.00, '100-07-17', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Abraão', '678.901.234-55', 0.00, '1813-11-26', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Isaac', '789.012.345-66', 0.00, '1712-02-15', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Jacó', '890.123.456-77', 0.00, '1658-04-01', 12);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Paulo', '901.234.567-88', 0.00, '5-05-20', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Pedro', '012.345.678-99', 0.00, '1-06-29', 0);
