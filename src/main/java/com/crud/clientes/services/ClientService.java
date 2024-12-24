@@ -4,9 +4,11 @@ import com.crud.clientes.dto.ClientDTO;
 import com.crud.clientes.entities.Client;
 import com.crud.clientes.repositories.ClientRepository;
 
+
 import com.crud.clientes.services.exceptions.ResourceNotFoundException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -54,7 +56,11 @@ public class ClientService {
 
     @Transactional
     public void delete(Long id){
-        repository.deleteById(id);
+
+        if(!repository.existsById(id)){
+            throw new ResourceNotFoundException("Recurso não encontrado");
+        }
+            repository.deleteById(id);
     }
 
     public void copyDtoToEntity(ClientDTO dto, Client entity){
